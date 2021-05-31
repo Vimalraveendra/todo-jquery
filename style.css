@@ -24,3 +24,54 @@ header > h1 {
 .form {
   text-align: center;
 }
+
+.form-details input {
+  padding: 0.6rem;
+  border: none;
+}
+.form-details button {
+  padding: 0.6rem 1rem;
+  margin-left: 5px;
+  border: none;
+}
+
+.todo-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 400px;
+  text-align: center;
+}
+
+.list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+  padding: 5px 0;
+  padding-left: 3px;
+}
+
+.fa-edit {
+  margin-right: 3px;
+  color: darkgreen;
+}
+
+.fa-trash-alt {
+  color: darkred;
+  margin-right: 6px;
+}
+
+.done {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
